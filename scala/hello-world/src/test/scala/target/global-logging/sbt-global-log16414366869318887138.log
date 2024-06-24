@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(e00f9df2-e8ca-4694-a679-b2c0169bd2e6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.19. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 4.218s.[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite.AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:6:30: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloWorldTest extends AnyFunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:6:47: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloWorldTest extends AnyFunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:8:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Say Hi!") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:9:5: not found: value HelloWorld[0m
+[0m[[0m[31merror[0m] [0m[0m    HelloWorld.hello() should be ("Hello, World!")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:9:31: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    HelloWorld.hello() should be ("Hello, World!")[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Jun 4, 2024, 10:56:51 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:9:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onEarth(1000000000) should be (31.69 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:14:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMercury(2134835688) should be (280.88 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:19:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onVenus(189839836) should be (9.78 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:24:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMars(2.329871239E9) should be (39.25 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:29:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onJupiter(901876382) should be (2.41 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:34:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onSaturn(3.0E9) should be (3.23 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:39:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onUranus(3.210123456E9) should be (1.21 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:44:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onNeptune(8.210123456E9) should be (1.58 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

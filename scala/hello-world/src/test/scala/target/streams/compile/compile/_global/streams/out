@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite.AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should.Matchers[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:6:30: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloWorldTest extends AnyFunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:6:47: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloWorldTest extends AnyFunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:8:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Say Hi!") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:9:5: not found: value HelloWorld[0m
+[0m[[0m[31merror[0m] [0m[0m    HelloWorld.hello() should be ("Hello, World!")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/hello-world/src/test/scala/HelloWorldTest.scala:9:31: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    HelloWorld.hello() should be ("Hello, World!")[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

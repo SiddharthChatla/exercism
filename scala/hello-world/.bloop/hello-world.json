@@ -1,0 +1,177 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "hello-world",
+        "directory": "/Users/siddarth_chatla/Exercism/scala/hello-world",
+        "workspaceDir": "/Users/siddarth_chatla/Exercism/scala/hello-world",
+        "sources": [
+            "/Users/siddarth_chatla/Exercism/scala/hello-world/src/main/scala",
+            "/Users/siddarth_chatla/Exercism/scala/hello-world/src/main/scala-2.13",
+            "/Users/siddarth_chatla/Exercism/scala/hello-world/src/main/scala-2",
+            "/Users/siddarth_chatla/Exercism/scala/hello-world/src/main/java",
+            "/Users/siddarth_chatla/Exercism/scala/hello-world/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+        ],
+        "out": "/Users/siddarth_chatla/Exercism/scala/hello-world/.bloop/hello-world",
+        "classesDir": "/Users/siddarth_chatla/Exercism/scala/hello-world/.bloop/hello-world/scala-2.13/classes",
+        "resources": [
+            "/Users/siddarth_chatla/Exercism/scala/hello-world/src/main/resources",
+            "/Users/siddarth_chatla/Exercism/scala/hello-world/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.6",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+                "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
+                "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
+                "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar",
+                "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/siddarth_chatla/Exercism/scala/hello-world"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/siddarth_chatla/Exercism/scala/hello-world"
+                ]
+            },
+            "classpath": [
+                "/Users/siddarth_chatla/Exercism/scala/hello-world/.bloop/hello-world/scala-2.13/classes",
+                "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.6",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/siddarth_chatla/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
