@@ -94,3 +94,21 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$:
 2024.06.08 10:35:08 INFO  Shutting down server
 2024.06.08 10:35:08 INFO  shutting down Metals
 2024.06.08 10:35:08 INFO  Exiting server
+2024.06.24 17:50:38 INFO  Started: Metals version 1.3.1 in folders '/Users/siddarth_chatla/Exercism/scala' for client Visual Studio Code 1.90.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7d2c997b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@455ba76b]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7d2c997b]
+2024.06.24 17:50:38 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Jun 24, 2024 5:50:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 24, 2024 5:51:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 24, 2024 5:53:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 24, 2024 5:54:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.06.24 18:08:12 INFO  Shutting down server
+2024.06.24 18:08:12 INFO  shutting down Metals
+2024.06.24 18:08:12 INFO  Exiting server
