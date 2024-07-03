@@ -1,0 +1,76 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:10:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)) should be(Robot(Bearing.North, (0, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:10:44: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)) should be(Robot(Bearing.North, (0, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:16:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.South, (-1, -1)) should be(Robot(Bearing.South, (-1, -1)))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:16:46: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.South, (-1, -1)) should be(Robot(Bearing.South, (-1, -1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:22:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)).turnRight.coordinates should be((0, 0))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:28:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)).turnRight.bearing should be(Bearing.East)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:34:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.East, (0, 0)).turnRight.bearing should be(Bearing.South)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:40:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.South, (0, 0)).turnRight.bearing should be(Bearing.West)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:46:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.West, (0, 0)).turnRight.bearing should be(Bearing.North)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:52:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)).turnLeft.coordinates should be((0, 0))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:58:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)).turnLeft.bearing should be(Bearing.West)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:64:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.West, (0, 0)).turnLeft.bearing should be(Bearing.South)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:70:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.South, (0, 0)).turnLeft.bearing should be(Bearing.East)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:76:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.East, (0, 0)).turnLeft.bearing should be(Bearing.North)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:82:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)).advance.bearing should be(Bearing.North)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:88:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)).advance.coordinates should be((0, 1))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:94:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.South, (0, 0)).advance.coordinates should be((0, -1))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:100:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.East, (0, 0)).advance.coordinates should be((1, 0))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:106:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.West, (0, 0)).advance.coordinates should be((-1, 0))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:112:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.North, (0, 0)).simulate("LAAARALA") should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:113:7: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m      Robot(Bearing.West, (-4, 1)))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:119:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.East, (2, -7)).simulate("RRAAAAALA") should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:120:7: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m      Robot(Bearing.South, (-3, -8)))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:126:5: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m    Robot(Bearing.South, (8, 4)).simulate("LAAARRRALLLL") should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/siddarth_chatla/Exercism/scala/robot-simulator/src/test/scala/RobotSimulatorTest.scala:127:7: not found: value Robot[0m
+[0m[[0m[31merror[0m] [0m[0m      Robot(Bearing.North, (11, 5)))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m25 errors found[0m
